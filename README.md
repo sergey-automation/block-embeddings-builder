@@ -2,6 +2,15 @@
 
 Block-based embeddings builder for large JSONL corpora.
 
+## Overview
+
+End-to-end stage for large-scale text pipelines:
+
+cleaned chunks → embeddings → backend optimization → vector-ready outputs
+
+Designed for industrial corpora and long-running batch processing on CPU-based systems.
+
+
 ## Related project
 
 This repository is part of a full OCR → RAG pipeline.
