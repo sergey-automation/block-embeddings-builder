@@ -111,3 +111,10 @@ Reports:
 On this setup (Ryzen 5 5625U), standard torch backend showed the best performance.
 
 Optimized backends (ONNX, OpenVINO) did not provide speedup on this workload.
+
+### Visual comparison
+Backend performance (chunks/sec)
+
+torch : 2.99 ███████████████████
+onnx : 2.86 ██████████████████
+openvino : 2.70 █████████████████
