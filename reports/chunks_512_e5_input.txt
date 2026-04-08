@@ -1,0 +1,29 @@
+MAKE_CHUNKS_512_FROM_CLEANED REPORT
+Program: MAKE_CHUNKS_512_FROM_CLEANED
+Version: 2026-04-05 v1.2
+
+Input file : C:\LIB1\_chunks\chunks_cleaned_full.jsonl
+Output file: C:\LIB1\_chunks\chunks_512.jsonl
+
+PARAMETERS
+max_words     : 222
+overlap_words : 10
+report_every  : 1000
+
+RESULT
+total_input_pages         : 64953
+total_output_chunks       : 117800
+pages_single              : 19161
+pages_split               : 45792
+max_parts_on_page         : 6
+bad_json                  : 0
+empty_input_text          : 0
+
+AVERAGES
+avg_input_words_per_page   : 281.289594
+avg_output_words_per_chunk : 159.58466
+
+PERFORMANCE
+time_sec   : 9.881402
+speed_in   : 6573.26 pages/s
+speed_out  : 11921.39 chunks/s
