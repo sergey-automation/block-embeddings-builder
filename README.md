@@ -2,6 +2,16 @@
 
 Block-based embeddings builder for large JSONL corpora.
 
+## Related project
+
+This repository is part of a full OCR → RAG pipeline.
+
+Previous stage (OCR processing, cleaning, chunking):
+https://github.com/sergey-automation/ocr-rag-pipeline
+
+This project handles the next stage:
+chunk embeddings, optimization and backend comparison.
+
 ## Features
 
 - block processing (default: 5000 chunks per block)
