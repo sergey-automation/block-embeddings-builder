@@ -1,0 +1,5 @@
+Backend performance (chunks/sec)
+
+torch    : 2.99  ███████████████████
+onnx     : 2.86  ██████████████████
+openvino : 2.70  █████████████████
