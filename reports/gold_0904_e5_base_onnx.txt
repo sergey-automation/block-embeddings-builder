@@ -1,0 +1,49 @@
+Summary
+=======
+Backend requested: onnx
+Backend reported : onnx
+Model            : intfloat/multilingual-e5-base
+Batch            : 128
+Block size       : 5000
+Total chunks     : 117800
+Processed blocks : 16
+Skipped blocks   : 8
+Elapsed sec      : 27203.649289
+Avg speed        : 2.85991 chunks/s
+Last block speed : 2.823436 chunks/s
+
+Raw summary fields
+==================
+program: BUILD_EMBEDDINGS_UNIVERSAL_V1
+version: 2026-04-07 v1.0
+chunks_path: C:\LIB1\_emb_09042026\gold_0904.jsonl
+out_root: C:\LIB1\_emb_09042026
+out_dir: C:\LIB1\_emb_09042026\gold_0904_e5_base_onnx
+parts_dir: C:\LIB1\_emb_09042026\gold_0904_e5_base_onnx\parts
+base_name: gold_0904
+model: intfloat/multilingual-e5-base
+backend: onnx
+batch: 128
+block_size: 5000
+block_start: 0
+block_end: -1
+dim: 768
+dtype: float32
+total_chunks_all: 117800
+total_blocks_written: 16
+total_items_written: 77800
+skipped_ready_blocks: 8
+skipped_empty_text: 0
+bad_json: 0
+time_sec: 27203.649289
+chunks_per_sec: 2.85991
+last_block_speed_chunks_per_sec: 2.823436
+openvino_cache_dir: None
+backend_requested: onnx
+backend_reported: onnx
+total_chunks: 117800
+processed_blocks: 16
+skipped_blocks: 8
+elapsed_sec: 27203.649289
+avg_speed_chunks_per_sec: 2.85991
+input_file_name: gold_0904.jsonl
