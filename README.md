@@ -12,6 +12,26 @@ Block-based embeddings builder for large JSONL corpora.
   - onnx
   - openvino
 
+## Quick Start
+
+1. Prepare input JSONL file (chunks)
+
+2. Edit `scripts/RUN_block_embeddings_builder.bat`:
+
+- set paths:
+  - CHUNKS
+  - OUT_ROOT
+- choose backend:
+  - torch / onnx / openvino
+- optionally set block range:
+  - BLOCK_START / BLOCK_END
+
+3. Run:
+
+```bat
+scripts\RUN_block_embeddings_builder.bat
+```
+
 ## Test configuration
 
 Model: intfloat/multilingual-e5-base  
@@ -20,8 +40,8 @@ CPU: AMD Ryzen 5 5625U
 
 ## Dataset
 
-- total chunks: 117800
-- avg chunk size: ~160 words (~512 tokens)
+- total chunks: 117 800
+- avg chunk size: ~160 words (~352 tokens)
 
 ## Performance (avg)
 
@@ -55,7 +75,7 @@ Embeddings are built in blocks:
 - block size: 5000 chunks
 - resume supported (continues from last completed block)
 - supports distributed execution via block ranges
-
+- block range is configured in the .bat file (BLOCK_START / BLOCK_END), allowing parallel processing across multiple machines
 ---
 
 ### 3. Backend comparison
