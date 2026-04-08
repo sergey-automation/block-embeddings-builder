@@ -10,6 +10,8 @@ cleaned chunks → embeddings → backend optimization → vector-ready outputs
 
 Designed for industrial corpora and long-running batch processing on CPU-based systems.
 
+Architecture details:
+- see ARCHITECTURE.md
 
 ## Related project
 
